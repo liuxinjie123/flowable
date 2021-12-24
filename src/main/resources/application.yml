@@ -5,3 +5,6 @@ spring:
     hikari:
       username: root
       password: root
+
+  profiles:
+    active: @profileActive@
