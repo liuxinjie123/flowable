@@ -1,10 +1,3 @@
 spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.35.92.242:3306/flowable?allowMultiQueries=true&useUnicode=true&characterEncoding=utf-8&nullCatalogMeansCurrent=true
-    hikari:
-      username: root
-      password: root
-
   profiles:
     active: @profileActive@
